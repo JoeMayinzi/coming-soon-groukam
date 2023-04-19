@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("/font/static/Comfortaa-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("/font/static/Comfortaa-SemiBold.ttf") format("woff");
+  font-weight: 700;
+}
+
+section {
+  padding: 0 1rem;
+}
+
+h1 {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 36px;
+  color: rgba(43, 37, 93, 1);
+  margin-top: 55.37px;
+  margin-bottom: 12px;
+}
+
+p,
+span {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(133, 133, 133, 1);
+  margin: 0;
+  line-height: 37.64px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact {
+  margin-top: 63px;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links ul {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+}
+
+.social-links ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social-links ul li a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(180deg, #e94e1b 0%, #2b255d 100%);
+  border-radius: 100%;
+  text-align: center;
+}
+
+.social-links ul li span {
+  color: rgba(58, 58, 58, 1) !important;
+  font-size: 18px !important;
+}
+
+.social-links ul li a svg {
+  margin-top: 30%;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    text-align: start;
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .social-links ul {
+    display: block;
+  }
+
+  .social-links ul li {
+    margin-bottom: 16px;
+  }
+}
